@@ -1,0 +1,7 @@
+# Autopsy host config file
+# Case: md5		Host: host1
+# Created: Sat May 21 18:24:14 2022
+
+timeskew  0
+image  img1  raw  images/image
+part  vol1  img1	0  0    fat12  C:

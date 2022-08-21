@@ -1,0 +1,20 @@
+Sat May 21 18:32:58 2022: '/usr/local/bin/img_stat' -t "/home/h_alpha/Documents/image"
+Sat May 21 18:32:58 2022: '/usr/local/bin/fsstat' -t -i raw "/home/h_alpha/Documents/image"
+Sat May 21 18:33:21 2022: '/usr/local/bin/img_stat' -t "/home/h_alpha/Documents/image"
+Sat May 21 18:33:21 2022: '/usr/local/bin/blkls' -f raw -e "/home/h_alpha/Documents/image" | '/usr/bin/md5sum'
+Sat May 21 18:33:48 2022: '/usr/local/bin/img_stat' -t "/home/h_alpha/Documents/image"
+Sat May 21 18:33:48 2022: '/usr/local/bin/blkls' -f raw -e "/home/h_alpha/Documents/image" | '/usr/bin/md5sum'
+Sat May 21 18:33:48 2022: '/usr/local/bin/fsstat' -o 0 -i raw -f fat12 "/home/h_alpha/Documents/image"
+Sat May 21 18:33:48 2022: /bin/cp '/home/h_alpha/Documents/image' 'cases/md5Validate/host1/images/image'
+Sat May 21 18:34:10 2022: '/usr/bin/md5sum' 'cases/md5Validate/host1/images/image'
+Sat May 21 18:40:12 2022: '/usr/local/bin/img_stat' -t "/home/h_alpha/Documents/image"
+Sat May 21 18:40:12 2022: '/usr/local/bin/fsstat' -t -i raw "/home/h_alpha/Documents/image"
+Sat May 21 18:40:32 2022: '/usr/local/bin/img_stat' -t "/home/h_alpha/Documents/image"
+Sat May 21 18:40:32 2022: '/usr/local/bin/fsstat' -o 0 -i raw -f fat12 "/home/h_alpha/Documents/image"
+Sat May 21 18:40:42 2022: '/usr/local/bin/img_stat' -t "/home/h_alpha/Documents/image"
+Sat May 21 18:40:42 2022: '/usr/local/bin/fsstat' -o 0 -i raw -f fat12 "/home/h_alpha/Documents/image"
+Sat May 21 18:40:59 2022: '/usr/local/bin/blkcat' -f fat12 -s -o 0 -i raw 'cases/md5Validate/host1/images/image'
+Sat May 21 18:41:04 2022: '/usr/local/bin/blkls' -e -f fat12 -o 0 -i raw 'cases/md5Validate/host1/images/image' | '/usr/local/bin/srch_strings' -a -t d > 'cases/md5Validate/host1/output/image-0-0-fat12.asc'
+Sat May 21 18:41:04 2022: '/usr/bin/md5sum' cases/md5Validate/host1/output/image-0-0-fat12.asc
+Sat May 21 18:41:04 2022: '/usr/local/bin/blkls' -e -f fat12 -o 0 -i raw 'cases/md5Validate/host1/images/image' | '/usr/local/bin/srch_strings' -a -t d -e l  > 'cases/md5Validate/host1/output/image-0-0-fat12.uni'
+Sat May 21 18:41:04 2022: '/usr/bin/md5sum' cases/md5Validate/host1/output/image-0-0-fat12.uni

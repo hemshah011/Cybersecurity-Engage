@@ -1,0 +1,16 @@
+Sat May 21 18:24:33 2022: '/usr/local/bin/img_stat' -t "/home/h_alpha/Documents/image"
+Sat May 21 18:24:33 2022: '/usr/local/bin/fsstat' -t -i raw "/home/h_alpha/Documents/image"
+Sat May 21 18:24:45 2022: '/usr/local/bin/img_stat' -t "/home/h_alpha/Documents/image"
+Sat May 21 18:24:45 2022: '/usr/local/bin/blkls' -f raw -e "/home/h_alpha/Documents/image" | '/usr/bin/md5sum'
+Sat May 21 18:24:45 2022: '/usr/local/bin/fsstat' -o 0 -i raw -f fat12 "/home/h_alpha/Documents/image"
+Sat May 21 18:24:45 2022: /bin/cp '/home/h_alpha/Documents/image' 'cases/md5/host1/images/image'
+Sat May 21 18:24:56 2022: '/usr/local/bin/fsstat' -f fat12 -o 0 -i raw 'cases/md5/host1/images/image'
+Sat May 21 18:25:14 2022: '/usr/local/bin/fsstat' -f fat12 -o 0 -i raw 'cases/md5/host1/images/image'
+Sat May 21 18:25:18 2022: '/usr/local/bin/fsstat' -f fat12 -o 0 -i raw 'cases/md5/host1/images/image'
+Sat May 21 18:25:23 2022: '/usr/local/bin/fls' -f fat12 -la  -s '0' -o 0 -i raw 'cases/md5/host1/images/image' 2
+Sat May 21 18:25:31 2022: '/usr/local/bin/fls' -f fat12 -Fu -o 0 -i raw 'cases/md5/host1/images/image' 2
+Sat May 21 18:25:31 2022: '/usr/local/bin/icat' -f fat12 -r -o 0 -i raw 'cases/md5/host1/images/image' 8 | '/usr/bin/md5sum'
+Sat May 21 18:25:31 2022: '/usr/local/bin/icat' -f fat12 -r -o 0 -i raw 'cases/md5/host1/images/image' 11 | '/usr/bin/md5sum'
+Sat May 21 18:26:03 2022: '/usr/local/bin/fsstat' -f fat12 -o 0 -i raw 'cases/md5/host1/images/image'
+Sat May 21 18:26:11 2022: '/usr/bin/md5sum' 'cases/md5/host1/images/image'
+Sat May 21 18:31:55 2022: '/usr/local/bin/blkcat' -f fat12 -s -o 0 -i raw 'cases/md5/host1/images/image'

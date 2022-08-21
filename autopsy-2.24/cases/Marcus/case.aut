@@ -1,0 +1,9 @@
+# Autopsy case config file
+# Case: Marcus
+
+created Sat May 21 17:22:28 2022
+desc Analyze recovered USB device
+images	images
+data		output
+log		logs
+reports	reports

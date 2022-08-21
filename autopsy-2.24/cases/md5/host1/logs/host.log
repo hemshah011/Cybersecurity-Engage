@@ -1,0 +1,8 @@
+Sat May 21 18:24:14 2022: Host host1 added to case md5
+Sat May 21 18:24:16 2022: Host host1 opened by unknown
+Sat May 21 18:24:45 2022: Copying image /home/h_alpha/Documents/image into md5:host1
+Sat May 21 18:24:45 2022: Image added: image img1 raw  images/image
+Sat May 21 18:24:45 2022: Volume added: part  vol1 img1	0  0    fat12  C:
+Sat May 21 18:24:54 2022: Image vol1 opened by unknown
+Sat May 21 18:31:39 2022: Host host1 opened by unknown
+Sat May 21 18:31:52 2022: Host host1 opened by unknown

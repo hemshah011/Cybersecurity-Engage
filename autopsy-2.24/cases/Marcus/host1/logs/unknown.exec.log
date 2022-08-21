@@ -1,0 +1,294 @@
+Sat May 21 17:26:06 2022: '/usr/local/bin/img_stat' -t "/home/h_alpha/Downloads/image"
+Sat May 21 17:26:06 2022: '/usr/local/bin/fsstat' -t -i raw "/home/h_alpha/Downloads/image"
+Sat May 21 17:26:19 2022: '/usr/local/bin/img_stat' -t "/home/h_alpha/Downloads/image"
+Sat May 21 17:26:19 2022: '/usr/local/bin/blkls' -f raw -e "/home/h_alpha/Downloads/image" | '/usr/bin/md5sum'
+Sat May 21 17:26:19 2022: '/usr/local/bin/fsstat' -o 0 -i raw -f fat12 "/home/h_alpha/Downloads/image"
+Sat May 21 17:26:19 2022: /bin/cp '/home/h_alpha/Downloads/image' 'cases/Marcus/host1/images/image'
+Sat May 21 17:26:32 2022: '/usr/local/bin/fsstat' -f fat12 -o 0 -i raw 'cases/Marcus/host1/images/image'
+Sat May 21 17:27:24 2022: '/usr/local/bin/fls' -f fat12 -la  -s '0' -o 0 -i raw 'cases/Marcus/host1/images/image' 2
+Sat May 21 17:27:44 2022: '/usr/local/bin/ils' -f fat12 -e -o 0 -i raw 'cases/Marcus/host1/images/image' 8
+Sat May 21 17:27:44 2022: '/usr/local/bin/icat' -f fat12 -o 0 -i raw 'cases/Marcus/host1/images/image' 8 | '/usr/bin/file' -z -b -
+Sat May 21 17:27:44 2022: '/usr/local/bin/icat' -f fat12 -o 0 -i raw 'cases/Marcus/host1/images/image' 8 | '/usr/bin/md5sum'
+Sat May 21 17:27:44 2022: '/usr/local/bin/icat' -f fat12 -o 0 -i raw 'cases/Marcus/host1/images/image' 8 | '/usr/bin/sha1sum'
+Sat May 21 17:27:44 2022: '/usr/local/bin/istat' -f fat12  -s '0' -o 0 -i raw 'cases/Marcus/host1/images/image' 8
+Sat May 21 17:28:01 2022: '/usr/local/bin/fsstat' -f fat12 -o 0 -i raw 'cases/Marcus/host1/images/image'
+Sat May 21 17:28:09 2022: '/usr/local/bin/blkcat' -f fat12 -s -o 0 -i raw 'cases/Marcus/host1/images/image'
+Sat May 21 17:28:10 2022: '/usr/local/bin/blkcat' -f fat12 -s -o 0 -i raw 'cases/Marcus/host1/images/image'
+Sat May 21 17:28:10 2022: '/usr/local/bin/blkcat' -f fat12 -s -o 0 -i raw 'cases/Marcus/host1/images/image'
+Sat May 21 17:28:11 2022: '/usr/local/bin/blkcat' -f fat12  -a -o 0 -i raw 'cases/Marcus/host1/images/image' 73 31
+Sat May 21 17:28:11 2022: '/usr/local/bin/blkcat' -f fat12  -o 0 -i raw 'cases/Marcus/host1/images/image' 73 | '/usr/bin/file' -z -b -
+Sat May 21 17:28:11 2022: '/usr/local/bin/blkstat' -f fat12  -o 0 -i raw 'cases/Marcus/host1/images/image' 73
+Sat May 21 17:28:21 2022: '/usr/local/bin/blkcat' -f fat12 -s -o 0 -i raw 'cases/Marcus/host1/images/image'
+Sat May 21 17:28:21 2022: '/usr/local/bin/blkcat' -f fat12 -s -o 0 -i raw 'cases/Marcus/host1/images/image'
+Sat May 21 17:28:21 2022: '/usr/local/bin/blkcat' -f fat12  -o 0 -i raw 'cases/Marcus/host1/images/image' 73 | '/usr/bin/file' -z -b -
+Sat May 21 17:28:21 2022: '/usr/local/bin/blkcat' -f fat12  -a -o 0 -i raw 'cases/Marcus/host1/images/image' 73 31
+Sat May 21 17:28:21 2022: '/usr/local/bin/blkstat' -f fat12  -o 0 -i raw 'cases/Marcus/host1/images/image' 73
+Sat May 21 17:28:23 2022: '/usr/local/bin/blkcat' -f fat12 -s -o 0 -i raw 'cases/Marcus/host1/images/image'
+Sat May 21 17:28:23 2022: '/usr/local/bin/blkcat' -f fat12 -s -o 0 -i raw 'cases/Marcus/host1/images/image'
+Sat May 21 17:28:23 2022: '/usr/local/bin/blkcat' -f fat12  -o 0 -i raw 'cases/Marcus/host1/images/image' 73 | '/usr/bin/file' -z -b -
+Sat May 21 17:28:23 2022: '/usr/local/bin/blkcat' -f fat12  -h -o 0 -i raw 'cases/Marcus/host1/images/image' 73 31
+Sat May 21 17:28:23 2022: '/usr/local/bin/blkstat' -f fat12  -o 0 -i raw 'cases/Marcus/host1/images/image' 73
+Sat May 21 17:28:37 2022: '/usr/local/bin/blkcat' -f fat12 -s -o 0 -i raw 'cases/Marcus/host1/images/image'
+Sat May 21 17:28:37 2022: '/usr/local/bin/blkcat' -f fat12  -o 0 -i raw 'cases/Marcus/host1/images/image' 73 31
+Sat May 21 17:31:31 2022: '/usr/local/bin/fls' -f fat12 -la  -s '0' -o 0 -i raw 'cases/Marcus/host1/images/image' 2
+Sat May 21 17:31:41 2022: '/usr/local/bin/ils' -f fat12 -e -o 0 -i raw 'cases/Marcus/host1/images/image' 11
+Sat May 21 17:31:41 2022: '/usr/local/bin/icat' -f fat12 -o 0 -i raw 'cases/Marcus/host1/images/image' 11 | '/usr/bin/file' -z -b -
+Sat May 21 17:31:41 2022: '/usr/local/bin/icat' -f fat12 -o 0 -i raw 'cases/Marcus/host1/images/image' 11 | '/usr/bin/md5sum'
+Sat May 21 17:31:41 2022: '/usr/local/bin/icat' -f fat12 -o 0 -i raw 'cases/Marcus/host1/images/image' 11 | '/usr/bin/sha1sum'
+Sat May 21 17:31:41 2022: '/usr/local/bin/istat' -f fat12  -s '0' -o 0 -i raw 'cases/Marcus/host1/images/image' 11
+Sat May 21 17:31:51 2022: '/usr/local/bin/blkcat' -f fat12 -s -o 0 -i raw 'cases/Marcus/host1/images/image'
+Sat May 21 17:31:53 2022: '/usr/local/bin/blkcat' -f fat12 -s -o 0 -i raw 'cases/Marcus/host1/images/image'
+Sat May 21 17:31:53 2022: '/usr/local/bin/blkcat' -f fat12 -s -o 0 -i raw 'cases/Marcus/host1/images/image'
+Sat May 21 17:31:53 2022: '/usr/local/bin/blkcat' -f fat12  -a -o 0 -i raw 'cases/Marcus/host1/images/image' 104 1
+Sat May 21 17:31:53 2022: '/usr/local/bin/blkcat' -f fat12  -o 0 -i raw 'cases/Marcus/host1/images/image' 104 | '/usr/bin/file' -z -b -
+Sat May 21 17:31:53 2022: '/usr/local/bin/blkstat' -f fat12  -o 0 -i raw 'cases/Marcus/host1/images/image' 104
+Sat May 21 17:31:57 2022: '/usr/local/bin/blkcat' -f fat12 -s -o 0 -i raw 'cases/Marcus/host1/images/image'
+Sat May 21 17:31:57 2022: '/usr/local/bin/blkcat' -f fat12 -s -o 0 -i raw 'cases/Marcus/host1/images/image'
+Sat May 21 17:31:57 2022: '/usr/local/bin/blkcat' -f fat12  -o 0 -i raw 'cases/Marcus/host1/images/image' 104 | '/usr/bin/file' -z -b -
+Sat May 21 17:31:57 2022: '/usr/local/bin/blkcat' -f fat12  -a -o 0 -i raw 'cases/Marcus/host1/images/image' 104 2
+Sat May 21 17:31:58 2022: '/usr/local/bin/blkstat' -f fat12  -o 0 -i raw 'cases/Marcus/host1/images/image' 104
+Sat May 21 17:32:00 2022: '/usr/local/bin/blkcat' -f fat12 -s -o 0 -i raw 'cases/Marcus/host1/images/image'
+Sat May 21 17:32:00 2022: '/usr/local/bin/blkcat' -f fat12 -s -o 0 -i raw 'cases/Marcus/host1/images/image'
+Sat May 21 17:32:00 2022: '/usr/local/bin/blkcat' -f fat12  -o 0 -i raw 'cases/Marcus/host1/images/image' 104 | '/usr/bin/file' -z -b -
+Sat May 21 17:32:00 2022: '/usr/local/bin/blkcat' -f fat12  -h -o 0 -i raw 'cases/Marcus/host1/images/image' 104 2
+Sat May 21 17:32:00 2022: '/usr/local/bin/blkstat' -f fat12  -o 0 -i raw 'cases/Marcus/host1/images/image' 104
+Sat May 21 17:32:08 2022: '/usr/local/bin/blkcat' -f fat12 -s -o 0 -i raw 'cases/Marcus/host1/images/image'
+Sat May 21 17:32:08 2022: '/usr/local/bin/blkcat' -f fat12  -o 0 -i raw 'cases/Marcus/host1/images/image' 104 2
+Sat May 21 17:32:28 2022: '/usr/local/bin/fls' -f fat12 -la  -s '0' -o 0 -i raw 'cases/Marcus/host1/images/image' 2
+Sat May 21 17:32:35 2022: '/usr/local/bin/ils' -f fat12 -e -o 0 -i raw 'cases/Marcus/host1/images/image' 5
+Sat May 21 17:32:35 2022: '/usr/local/bin/icat' -f fat12 -r -o 0 -i raw 'cases/Marcus/host1/images/image' 5 | '/usr/bin/file' -z -b -
+Sat May 21 17:32:35 2022: '/usr/local/bin/icat' -f fat12 -r -o 0 -i raw 'cases/Marcus/host1/images/image' 5 | '/usr/bin/md5sum'
+Sat May 21 17:32:35 2022: '/usr/local/bin/icat' -f fat12 -r -o 0 -i raw 'cases/Marcus/host1/images/image' 5 | '/usr/bin/sha1sum'
+Sat May 21 17:32:35 2022: '/usr/local/bin/istat' -f fat12  -s '0' -o 0 -i raw 'cases/Marcus/host1/images/image' 5
+Sat May 21 17:32:43 2022: '/usr/local/bin/blkcat' -f fat12 -s -o 0 -i raw 'cases/Marcus/host1/images/image'
+Sat May 21 17:32:45 2022: '/usr/local/bin/blkcat' -f fat12 -s -o 0 -i raw 'cases/Marcus/host1/images/image'
+Sat May 21 17:32:45 2022: '/usr/local/bin/blkcat' -f fat12  -o 0 -i raw 'cases/Marcus/host1/images/image' 33 | '/usr/bin/file' -z -b -
+Sat May 21 17:32:45 2022: '/usr/local/bin/blkcat' -f fat12 -s -o 0 -i raw 'cases/Marcus/host1/images/image'
+Sat May 21 17:32:45 2022: '/usr/local/bin/blkstat' -f fat12  -o 0 -i raw 'cases/Marcus/host1/images/image' 33
+Sat May 21 17:32:45 2022: '/usr/local/bin/blkcat' -f fat12  -a -o 0 -i raw 'cases/Marcus/host1/images/image' 33 1
+Sat May 21 17:32:49 2022: '/usr/local/bin/blkcat' -f fat12 -s -o 0 -i raw 'cases/Marcus/host1/images/image'
+Sat May 21 17:32:49 2022: '/usr/local/bin/blkcat' -f fat12 -s -o 0 -i raw 'cases/Marcus/host1/images/image'
+Sat May 21 17:32:49 2022: '/usr/local/bin/blkcat' -f fat12  -o 0 -i raw 'cases/Marcus/host1/images/image' 33 | '/usr/bin/file' -z -b -
+Sat May 21 17:32:49 2022: '/usr/local/bin/blkcat' -f fat12  -a -o 0 -i raw 'cases/Marcus/host1/images/image' 33 40
+Sat May 21 17:32:49 2022: '/usr/local/bin/blkstat' -f fat12  -o 0 -i raw 'cases/Marcus/host1/images/image' 33
+Sat May 21 17:32:52 2022: '/usr/local/bin/blkcat' -f fat12 -s -o 0 -i raw 'cases/Marcus/host1/images/image'
+Sat May 21 17:32:52 2022: '/usr/local/bin/blkcat' -f fat12  -o 0 -i raw 'cases/Marcus/host1/images/image' 33 | '/usr/bin/file' -z -b -
+Sat May 21 17:32:52 2022: '/usr/local/bin/blkcat' -f fat12 -s -o 0 -i raw 'cases/Marcus/host1/images/image'
+Sat May 21 17:32:52 2022: '/usr/local/bin/blkcat' -f fat12  -h -o 0 -i raw 'cases/Marcus/host1/images/image' 33 40
+Sat May 21 17:32:52 2022: '/usr/local/bin/blkstat' -f fat12  -o 0 -i raw 'cases/Marcus/host1/images/image' 33
+Sat May 21 17:33:09 2022: '/usr/local/bin/blkcat' -f fat12 -s -o 0 -i raw 'cases/Marcus/host1/images/image'
+Sat May 21 17:33:09 2022: '/usr/local/bin/blkcat' -f fat12  -o 0 -i raw 'cases/Marcus/host1/images/image' 33 40
+Sat May 21 17:34:16 2022: '/usr/local/bin/fls' -f fat12 -la  -s '0' -o 0 -i raw 'cases/Marcus/host1/images/image' 2
+Sat May 21 17:45:24 2022: '/usr/local/bin/fls' -f fat12 -Fu -o 0 -i raw 'cases/Marcus/host1/images/image' 2
+Sat May 21 17:45:24 2022: '/usr/local/bin/icat' -f fat12 -r -o 0 -i raw 'cases/Marcus/host1/images/image' 8 | '/usr/bin/md5sum'
+Sat May 21 17:45:24 2022: '/usr/local/bin/icat' -f fat12 -r -o 0 -i raw 'cases/Marcus/host1/images/image' 11 | '/usr/bin/md5sum'
+Sat May 21 17:45:34 2022: '/usr/local/bin/fsstat' -f fat12 -o 0 -i raw 'cases/Marcus/host1/images/image'
+Sat May 21 17:46:58 2022: '/usr/bin/md5sum' 'cases/Marcus/host1/images/image'
+Sat May 21 17:47:13 2022: '/usr/local/bin/blkcat' -f fat12 -s -o 0 -i raw 'cases/Marcus/host1/images/image'
+Sat May 21 17:48:01 2022: '/usr/local/bin/fls' -f fat12 -la  -s '0' -o 0 -i raw 'cases/Marcus/host1/images/image' 2
+Sat May 21 17:48:48 2022: '/usr/local/bin/icat' -f fat12  -o 0 -i raw 'cases/Marcus/host1/images/image' 8 | '/usr/bin/file' -z -b -
+Sat May 21 17:48:48 2022: '/usr/local/bin/icat' -f fat12  -o 0 -i raw 'cases/Marcus/host1/images/image' 8
+Sat May 21 17:48:48 2022: '/usr/local/bin/icat' -f fat12  -o 0 -i raw 'cases/Marcus/host1/images/image' 8 | '/usr/bin/file' -z -b -
+Sat May 21 17:48:53 2022: '/usr/local/bin/ils' -f fat12 -e -o 0 -i raw 'cases/Marcus/host1/images/image' 8
+Sat May 21 17:48:53 2022: '/usr/local/bin/icat' -f fat12 -o 0 -i raw 'cases/Marcus/host1/images/image' 8 | '/usr/bin/file' -z -b -
+Sat May 21 17:48:53 2022: '/usr/local/bin/icat' -f fat12 -o 0 -i raw 'cases/Marcus/host1/images/image' 8 | '/usr/bin/md5sum'
+Sat May 21 17:48:53 2022: '/usr/local/bin/icat' -f fat12 -o 0 -i raw 'cases/Marcus/host1/images/image' 8 | '/usr/bin/sha1sum'
+Sat May 21 17:48:53 2022: '/usr/local/bin/istat' -f fat12  -s '0' -o 0 -i raw 'cases/Marcus/host1/images/image' 8
+Sat May 21 17:49:54 2022: '/usr/local/bin/fls' -f fat12 -la  -s '0' -o 0 -i raw 'cases/Marcus/host1/images/image' 2
+Sat May 21 17:50:01 2022: '/usr/local/bin/icat' -f fat12  -o 0 -i raw 'cases/Marcus/host1/images/image' 11 | '/usr/bin/file' -z -b -
+Sat May 21 17:50:01 2022: '/usr/local/bin/icat' -f fat12  -o 0 -i raw 'cases/Marcus/host1/images/image' 11 | '/usr/bin/file' -z -b -
+Sat May 21 17:50:01 2022: '/usr/local/bin/icat' -f fat12  -o 0 -i raw 'cases/Marcus/host1/images/image' 11
+Sat May 21 17:50:05 2022: '/usr/local/bin/ils' -f fat12 -e -o 0 -i raw 'cases/Marcus/host1/images/image' 11
+Sat May 21 17:50:05 2022: '/usr/local/bin/icat' -f fat12 -o 0 -i raw 'cases/Marcus/host1/images/image' 11 | '/usr/bin/file' -z -b -
+Sat May 21 17:50:05 2022: '/usr/local/bin/icat' -f fat12 -o 0 -i raw 'cases/Marcus/host1/images/image' 11 | '/usr/bin/md5sum'
+Sat May 21 17:50:05 2022: '/usr/local/bin/icat' -f fat12 -o 0 -i raw 'cases/Marcus/host1/images/image' 11 | '/usr/bin/sha1sum'
+Sat May 21 17:50:05 2022: '/usr/local/bin/istat' -f fat12  -s '0' -o 0 -i raw 'cases/Marcus/host1/images/image' 11
+Sat May 21 18:02:32 2022: '/usr/local/bin/fls' -f fat12 -la  -s '0' -o 0 -i raw 'cases/Marcus/host1/images/image' 2
+Sat May 21 18:02:35 2022: '/usr/local/bin/ils' -f fat12 -e -o 0 -i raw 'cases/Marcus/host1/images/image' 8
+Sat May 21 18:02:35 2022: '/usr/local/bin/icat' -f fat12 -o 0 -i raw 'cases/Marcus/host1/images/image' 8 | '/usr/bin/file' -z -b -
+Sat May 21 18:02:35 2022: '/usr/local/bin/icat' -f fat12 -o 0 -i raw 'cases/Marcus/host1/images/image' 8 | '/usr/bin/md5sum'
+Sat May 21 18:02:35 2022: '/usr/local/bin/icat' -f fat12 -o 0 -i raw 'cases/Marcus/host1/images/image' 8 | '/usr/bin/sha1sum'
+Sat May 21 18:02:35 2022: '/usr/local/bin/istat' -f fat12  -s '0' -o 0 -i raw 'cases/Marcus/host1/images/image' 8
+Sat May 21 18:03:19 2022: '/usr/local/bin/fls' -f fat12 -la  -s '0' -o 0 -i raw 'cases/Marcus/host1/images/image' 2
+Sat May 21 18:03:26 2022: '/usr/local/bin/ils' -f fat12 -e -o 0 -i raw 'cases/Marcus/host1/images/image' 11
+Sat May 21 18:03:26 2022: '/usr/local/bin/icat' -f fat12 -o 0 -i raw 'cases/Marcus/host1/images/image' 11 | '/usr/bin/file' -z -b -
+Sat May 21 18:03:26 2022: '/usr/local/bin/icat' -f fat12 -o 0 -i raw 'cases/Marcus/host1/images/image' 11 | '/usr/bin/md5sum'
+Sat May 21 18:03:26 2022: '/usr/local/bin/icat' -f fat12 -o 0 -i raw 'cases/Marcus/host1/images/image' 11 | '/usr/bin/sha1sum'
+Sat May 21 18:03:26 2022: '/usr/local/bin/istat' -f fat12  -s '0' -o 0 -i raw 'cases/Marcus/host1/images/image' 11
+Sat May 21 18:03:30 2022: '/usr/local/bin/ils' -f fat12 -e -o 0 -i raw 'cases/Marcus/host1/images/image' 5
+Sat May 21 18:03:30 2022: '/usr/local/bin/icat' -f fat12 -r -o 0 -i raw 'cases/Marcus/host1/images/image' 5 | '/usr/bin/file' -z -b -
+Sat May 21 18:03:30 2022: '/usr/local/bin/icat' -f fat12 -r -o 0 -i raw 'cases/Marcus/host1/images/image' 5 | '/usr/bin/md5sum'
+Sat May 21 18:03:30 2022: '/usr/local/bin/icat' -f fat12 -r -o 0 -i raw 'cases/Marcus/host1/images/image' 5 | '/usr/bin/sha1sum'
+Sat May 21 18:03:30 2022: '/usr/local/bin/istat' -f fat12  -s '0' -o 0 -i raw 'cases/Marcus/host1/images/image' 5
+Sat May 21 18:05:37 2022: '/usr/local/bin/fls' -f fat12 -la  -s '0' -o 0 -i raw 'cases/Marcus/host1/images/image' 2
+Sat May 21 18:05:41 2022: '/usr/local/bin/ils' -f fat12 -e -o 0 -i raw 'cases/Marcus/host1/images/image' 8
+Sat May 21 18:05:41 2022: '/usr/local/bin/icat' -f fat12 -o 0 -i raw 'cases/Marcus/host1/images/image' 8 | '/usr/bin/file' -z -b -
+Sat May 21 18:05:41 2022: '/usr/local/bin/icat' -f fat12 -o 0 -i raw 'cases/Marcus/host1/images/image' 8 | '/usr/bin/md5sum'
+Sat May 21 18:05:41 2022: '/usr/local/bin/icat' -f fat12 -o 0 -i raw 'cases/Marcus/host1/images/image' 8 | '/usr/bin/sha1sum'
+Sat May 21 18:05:41 2022: '/usr/local/bin/istat' -f fat12  -s '0' -o 0 -i raw 'cases/Marcus/host1/images/image' 8
+Sat May 21 18:05:52 2022: '/usr/local/bin/fls' -f fat12 -la  -s '0' -o 0 -i raw 'cases/Marcus/host1/images/image' 2
+Sat May 21 18:06:31 2022: '/usr/local/bin/ils' -f fat12 -e -o 0 -i raw 'cases/Marcus/host1/images/image' 5
+Sat May 21 18:06:31 2022: '/usr/local/bin/icat' -f fat12 -r -o 0 -i raw 'cases/Marcus/host1/images/image' 5 | '/usr/bin/file' -z -b -
+Sat May 21 18:06:31 2022: '/usr/local/bin/icat' -f fat12 -r -o 0 -i raw 'cases/Marcus/host1/images/image' 5 | '/usr/bin/md5sum'
+Sat May 21 18:06:32 2022: '/usr/local/bin/icat' -f fat12 -r -o 0 -i raw 'cases/Marcus/host1/images/image' 5 | '/usr/bin/sha1sum'
+Sat May 21 18:06:32 2022: '/usr/local/bin/istat' -f fat12  -s '0' -o 0 -i raw 'cases/Marcus/host1/images/image' 5
+Sat May 21 18:06:42 2022: '/usr/local/bin/blkcat' -f fat12 -s -o 0 -i raw 'cases/Marcus/host1/images/image'
+Sat May 21 18:06:42 2022: '/usr/local/bin/blkcat' -f fat12 -s -o 0 -i raw 'cases/Marcus/host1/images/image'
+Sat May 21 18:06:42 2022: '/usr/local/bin/blkcat' -f fat12 -s -o 0 -i raw 'cases/Marcus/host1/images/image'
+Sat May 21 18:06:42 2022: '/usr/local/bin/blkcat' -f fat12  -a -o 0 -i raw 'cases/Marcus/host1/images/image' 33 1
+Sat May 21 18:06:42 2022: '/usr/local/bin/blkcat' -f fat12  -o 0 -i raw 'cases/Marcus/host1/images/image' 33 | '/usr/bin/file' -z -b -
+Sat May 21 18:06:42 2022: '/usr/local/bin/blkstat' -f fat12  -o 0 -i raw 'cases/Marcus/host1/images/image' 33
+Sat May 21 18:06:45 2022: '/usr/local/bin/blkcat' -f fat12 -s -o 0 -i raw 'cases/Marcus/host1/images/image'
+Sat May 21 18:06:45 2022: '/usr/local/bin/blkcat' -f fat12 -s -o 0 -i raw 'cases/Marcus/host1/images/image'
+Sat May 21 18:06:45 2022: '/usr/local/bin/blkcat' -f fat12  -a -o 0 -i raw 'cases/Marcus/host1/images/image' 33 40
+Sat May 21 18:06:45 2022: '/usr/local/bin/blkcat' -f fat12  -o 0 -i raw 'cases/Marcus/host1/images/image' 33 | '/usr/bin/file' -z -b -
+Sat May 21 18:06:45 2022: '/usr/local/bin/blkstat' -f fat12  -o 0 -i raw 'cases/Marcus/host1/images/image' 33
+Sat May 21 18:06:47 2022: '/usr/local/bin/blkcat' -f fat12 -s -o 0 -i raw 'cases/Marcus/host1/images/image'
+Sat May 21 18:06:47 2022: '/usr/local/bin/blkcat' -f fat12  -o 0 -i raw 'cases/Marcus/host1/images/image' 33 | '/usr/bin/file' -z -b -
+Sat May 21 18:06:47 2022: '/usr/local/bin/blkcat' -f fat12 -s -o 0 -i raw 'cases/Marcus/host1/images/image'
+Sat May 21 18:06:47 2022: '/usr/local/bin/blkstat' -f fat12  -o 0 -i raw 'cases/Marcus/host1/images/image' 33
+Sat May 21 18:06:47 2022: '/usr/local/bin/blkcat' -f fat12  -h -o 0 -i raw 'cases/Marcus/host1/images/image' 33 40
+Sat May 21 18:07:06 2022: '/usr/local/bin/blkcat' -f fat12 -s -o 0 -i raw 'cases/Marcus/host1/images/image'
+Sat May 21 18:07:06 2022: '/usr/local/bin/blkcat' -f fat12 -s -o 0 -i raw 'cases/Marcus/host1/images/image'
+Sat May 21 18:07:06 2022: '/usr/local/bin/blkcat' -f fat12  -o 0 -i raw 'cases/Marcus/host1/images/image' 33 40 | '/usr/local/bin/srch_strings' -a
+Sat May 21 18:07:06 2022: '/usr/local/bin/blkcat' -f fat12  -o 0 -i raw 'cases/Marcus/host1/images/image' 33 | '/usr/bin/file' -z -b -
+Sat May 21 18:07:06 2022: '/usr/local/bin/blkstat' -f fat12  -o 0 -i raw 'cases/Marcus/host1/images/image' 33
+Sat May 21 18:08:35 2022: '/usr/local/bin/fls' -f fat12 -la  -s '0' -o 0 -i raw 'cases/Marcus/host1/images/image' 2
+Sat May 21 18:08:38 2022: '/usr/local/bin/ils' -f fat12 -e -o 0 -i raw 'cases/Marcus/host1/images/image' 11
+Sat May 21 18:08:38 2022: '/usr/local/bin/icat' -f fat12 -o 0 -i raw 'cases/Marcus/host1/images/image' 11 | '/usr/bin/file' -z -b -
+Sat May 21 18:08:38 2022: '/usr/local/bin/icat' -f fat12 -o 0 -i raw 'cases/Marcus/host1/images/image' 11 | '/usr/bin/md5sum'
+Sat May 21 18:08:38 2022: '/usr/local/bin/icat' -f fat12 -o 0 -i raw 'cases/Marcus/host1/images/image' 11 | '/usr/bin/sha1sum'
+Sat May 21 18:08:38 2022: '/usr/local/bin/istat' -f fat12  -s '0' -o 0 -i raw 'cases/Marcus/host1/images/image' 11
+Sat May 21 18:10:50 2022: '/usr/local/bin/fls' -f fat12 -la  -s '0' -o 0 -i raw 'cases/Marcus/host1/images/image' 2
+Sat May 21 18:10:52 2022: '/usr/local/bin/fsstat' -f fat12 -o 0 -i raw 'cases/Marcus/host1/images/image'
+Sat May 21 18:10:55 2022: '/usr/local/bin/blkcat' -f fat12 -s -o 0 -i raw 'cases/Marcus/host1/images/image'
+Sat May 21 18:10:56 2022: '/usr/local/bin/blkcat' -f fat12 -s -o 0 -i raw 'cases/Marcus/host1/images/image'
+Sat May 21 18:10:56 2022: '/usr/local/bin/blkcat' -f fat12 -s -o 0 -i raw 'cases/Marcus/host1/images/image'
+Sat May 21 18:10:56 2022: '/usr/local/bin/blkcat' -f fat12  -a -o 0 -i raw 'cases/Marcus/host1/images/image' 104 5
+Sat May 21 18:10:56 2022: '/usr/local/bin/blkcat' -f fat12  -o 0 -i raw 'cases/Marcus/host1/images/image' 104 | '/usr/bin/file' -z -b -
+Sat May 21 18:10:56 2022: '/usr/local/bin/blkstat' -f fat12  -o 0 -i raw 'cases/Marcus/host1/images/image' 104
+Sat May 21 18:11:07 2022: '/usr/local/bin/blkcat' -f fat12 -s -o 0 -i raw 'cases/Marcus/host1/images/image'
+Sat May 21 18:11:07 2022: '/usr/local/bin/blkcat' -f fat12 -s -o 0 -i raw 'cases/Marcus/host1/images/image'
+Sat May 21 18:11:07 2022: '/usr/local/bin/blkcat' -f fat12  -o 0 -i raw 'cases/Marcus/host1/images/image' 104 5 | '/usr/local/bin/srch_strings' -a
+Sat May 21 18:11:07 2022: '/usr/local/bin/blkcat' -f fat12  -o 0 -i raw 'cases/Marcus/host1/images/image' 104 | '/usr/bin/file' -z -b -
+Sat May 21 18:11:07 2022: '/usr/local/bin/blkstat' -f fat12  -o 0 -i raw 'cases/Marcus/host1/images/image' 104
+Sat May 21 18:11:40 2022: '/usr/local/bin/blkcat' -f fat12 -s -o 0 -i raw 'cases/Marcus/host1/images/image'
+Sat May 21 18:11:40 2022: '/usr/local/bin/blkcat' -f fat12  -o 0 -i raw 'cases/Marcus/host1/images/image' 104 5
+Sat May 21 18:12:15 2022: '/usr/local/bin/blkcat' -f fat12 -s -o 0 -i raw 'cases/Marcus/host1/images/image'
+Sat May 21 18:12:15 2022: '/usr/local/bin/blkcat' -f fat12 -s -o 0 -i raw 'cases/Marcus/host1/images/image'
+Sat May 21 18:12:15 2022: '/usr/local/bin/blkcat' -f fat12  -a -o 0 -i raw 'cases/Marcus/host1/images/image' 104 5
+Sat May 21 18:12:15 2022: '/usr/local/bin/blkcat' -f fat12  -o 0 -i raw 'cases/Marcus/host1/images/image' 104 | '/usr/bin/file' -z -b -
+Sat May 21 18:12:15 2022: '/usr/local/bin/blkstat' -f fat12  -o 0 -i raw 'cases/Marcus/host1/images/image' 104
+Sat May 21 18:12:16 2022: '/usr/local/bin/blkcat' -f fat12 -s -o 0 -i raw 'cases/Marcus/host1/images/image'
+Sat May 21 18:12:16 2022: '/usr/local/bin/blkcat' -f fat12 -s -o 0 -i raw 'cases/Marcus/host1/images/image'
+Sat May 21 18:12:16 2022: '/usr/local/bin/blkcat' -f fat12  -o 0 -i raw 'cases/Marcus/host1/images/image' 104 | '/usr/bin/file' -z -b -
+Sat May 21 18:12:17 2022: '/usr/local/bin/blkcat' -f fat12  -o 0 -i raw 'cases/Marcus/host1/images/image' 104 5 | '/usr/local/bin/srch_strings' -a
+Sat May 21 18:12:17 2022: '/usr/local/bin/blkstat' -f fat12  -o 0 -i raw 'cases/Marcus/host1/images/image' 104
+Sat May 21 18:12:20 2022: '/usr/local/bin/blkcat' -f fat12 -s -o 0 -i raw 'cases/Marcus/host1/images/image'
+Sat May 21 18:12:20 2022: '/usr/local/bin/blkcat' -f fat12  -o 0 -i raw 'cases/Marcus/host1/images/image' 104 5
+Sat May 21 18:15:19 2022: '/usr/local/bin/fls' -f fat12 -la  -s '0' -o 0 -i raw 'cases/Marcus/host1/images/image' 2
+Sat May 21 18:15:21 2022: '/usr/local/bin/fsstat' -f fat12 -o 0 -i raw 'cases/Marcus/host1/images/image'
+Sat May 21 18:15:23 2022: '/usr/local/bin/blkcat' -f fat12 -s -o 0 -i raw 'cases/Marcus/host1/images/image'
+Sat May 21 18:15:24 2022: '/usr/local/bin/blkcat' -f fat12 -s -o 0 -i raw 'cases/Marcus/host1/images/image'
+Sat May 21 18:15:24 2022: '/usr/local/bin/blkcat' -f fat12 -s -o 0 -i raw 'cases/Marcus/host1/images/image'
+Sat May 21 18:15:24 2022: '/usr/local/bin/blkcat' -f fat12  -a -o 0 -i raw 'cases/Marcus/host1/images/image' 73 31
+Sat May 21 18:15:24 2022: '/usr/local/bin/blkcat' -f fat12  -o 0 -i raw 'cases/Marcus/host1/images/image' 73 | '/usr/bin/file' -z -b -
+Sat May 21 18:15:24 2022: '/usr/local/bin/blkstat' -f fat12  -o 0 -i raw 'cases/Marcus/host1/images/image' 73
+Sat May 21 18:15:28 2022: '/usr/local/bin/blkcat' -f fat12 -s -o 0 -i raw 'cases/Marcus/host1/images/image'
+Sat May 21 18:15:28 2022: '/usr/local/bin/blkcat' -f fat12 -s -o 0 -i raw 'cases/Marcus/host1/images/image'
+Sat May 21 18:15:28 2022: '/usr/local/bin/blkcat' -f fat12  -a -o 0 -i raw 'cases/Marcus/host1/images/image' 73 31
+Sat May 21 18:15:28 2022: '/usr/local/bin/blkcat' -f fat12  -o 0 -i raw 'cases/Marcus/host1/images/image' 73 | '/usr/bin/file' -z -b -
+Sat May 21 18:15:28 2022: '/usr/local/bin/blkstat' -f fat12  -o 0 -i raw 'cases/Marcus/host1/images/image' 73
+Sat May 21 18:15:31 2022: '/usr/local/bin/blkcat' -f fat12 -s -o 0 -i raw 'cases/Marcus/host1/images/image'
+Sat May 21 18:15:31 2022: '/usr/local/bin/blkcat' -f fat12 -s -o 0 -i raw 'cases/Marcus/host1/images/image'
+Sat May 21 18:15:31 2022: '/usr/local/bin/blkcat' -f fat12  -o 0 -i raw 'cases/Marcus/host1/images/image' 73 | '/usr/bin/file' -z -b -
+Sat May 21 18:15:31 2022: '/usr/local/bin/blkcat' -f fat12  -o 0 -i raw 'cases/Marcus/host1/images/image' 73 31 | '/usr/local/bin/srch_strings' -a
+Sat May 21 18:15:31 2022: '/usr/local/bin/blkstat' -f fat12  -o 0 -i raw 'cases/Marcus/host1/images/image' 73
+Sat May 21 18:15:39 2022: '/usr/local/bin/blkcat' -f fat12 -s -o 0 -i raw 'cases/Marcus/host1/images/image'
+Sat May 21 18:15:39 2022: '/usr/local/bin/blkcat' -f fat12 -s -o 0 -i raw 'cases/Marcus/host1/images/image'
+Sat May 21 18:15:39 2022: '/usr/local/bin/blkcat' -f fat12  -h -o 0 -i raw 'cases/Marcus/host1/images/image' 73 31
+Sat May 21 18:15:39 2022: '/usr/local/bin/blkcat' -f fat12  -o 0 -i raw 'cases/Marcus/host1/images/image' 73 | '/usr/bin/file' -z -b -
+Sat May 21 18:15:39 2022: '/usr/local/bin/blkstat' -f fat12  -o 0 -i raw 'cases/Marcus/host1/images/image' 73
+Sat May 21 18:15:49 2022: '/usr/local/bin/blkcat' -f fat12 -s -o 0 -i raw 'cases/Marcus/host1/images/image'
+Sat May 21 18:15:49 2022: '/usr/local/bin/blkcat' -f fat12 -s -o 0 -i raw 'cases/Marcus/host1/images/image'
+Sat May 21 18:15:49 2022: '/usr/local/bin/blkcat' -f fat12  -o 0 -i raw 'cases/Marcus/host1/images/image' 73 31 | '/usr/local/bin/srch_strings' -a
+Sat May 21 18:15:49 2022: '/usr/local/bin/blkcat' -f fat12  -o 0 -i raw 'cases/Marcus/host1/images/image' 73 | '/usr/bin/file' -z -b -
+Sat May 21 18:15:49 2022: '/usr/local/bin/blkstat' -f fat12  -o 0 -i raw 'cases/Marcus/host1/images/image' 73
+Sat May 21 18:16:57 2022: '/usr/local/bin/blkcat' -f fat12 -s -o 0 -i raw 'cases/Marcus/host1/images/image'
+Sat May 21 18:16:57 2022: '/usr/local/bin/blkcat' -f fat12  -o 0 -i raw 'cases/Marcus/host1/images/image' 73 31
+Sat May 21 18:50:15 2022: '/usr/local/bin/fsstat' -f fat12 -o 0 -i raw 'cases/Marcus/host1/images/image'
+Sat May 21 18:50:19 2022: '/usr/local/bin/fls' -f fat12 -la  -s '0' -o 0 -i raw 'cases/Marcus/host1/images/image' 2
+Sat May 21 18:50:23 2022: '/usr/local/bin/ils' -f fat12 -e -o 0 -i raw 'cases/Marcus/host1/images/image' 8
+Sat May 21 18:50:23 2022: '/usr/local/bin/icat' -f fat12 -o 0 -i raw 'cases/Marcus/host1/images/image' 8 | '/usr/bin/file' -z -b -
+Sat May 21 18:50:23 2022: '/usr/local/bin/icat' -f fat12 -o 0 -i raw 'cases/Marcus/host1/images/image' 8 | '/usr/bin/md5sum'
+Sat May 21 18:50:23 2022: '/usr/local/bin/icat' -f fat12 -o 0 -i raw 'cases/Marcus/host1/images/image' 8 | '/usr/bin/sha1sum'
+Sat May 21 18:50:23 2022: '/usr/local/bin/istat' -f fat12  -s '0' -o 0 -i raw 'cases/Marcus/host1/images/image' 8
+Sat May 21 19:40:18 2022: '/usr/local/bin/fls' -f fat12 -la  -s '0' -o 0 -i raw 'cases/Marcus/host1/images/image' 2
+Sat May 21 19:41:04 2022: '/usr/local/bin/ils' -f fat12 -e -o 0 -i raw 'cases/Marcus/host1/images/image' 11
+Sat May 21 19:41:04 2022: '/usr/local/bin/icat' -f fat12 -o 0 -i raw 'cases/Marcus/host1/images/image' 11 | '/usr/bin/file' -z -b -
+Sat May 21 19:41:04 2022: '/usr/local/bin/icat' -f fat12 -o 0 -i raw 'cases/Marcus/host1/images/image' 11 | '/usr/bin/md5sum'
+Sat May 21 19:41:04 2022: '/usr/local/bin/icat' -f fat12 -o 0 -i raw 'cases/Marcus/host1/images/image' 11 | '/usr/bin/sha1sum'
+Sat May 21 19:41:04 2022: '/usr/local/bin/istat' -f fat12  -s '0' -o 0 -i raw 'cases/Marcus/host1/images/image' 11
+Sat May 21 19:41:07 2022: '/usr/local/bin/blkcat' -f fat12 -s -o 0 -i raw 'cases/Marcus/host1/images/image'
+Sat May 21 19:41:08 2022: '/usr/local/bin/blkcat' -f fat12 -s -o 0 -i raw 'cases/Marcus/host1/images/image'
+Sat May 21 19:41:08 2022: '/usr/local/bin/blkcat' -f fat12 -s -o 0 -i raw 'cases/Marcus/host1/images/image'
+Sat May 21 19:41:08 2022: '/usr/local/bin/blkcat' -f fat12  -o 0 -i raw 'cases/Marcus/host1/images/image' 104 | '/usr/bin/file' -z -b -
+Sat May 21 19:41:08 2022: '/usr/local/bin/blkcat' -f fat12  -a -o 0 -i raw 'cases/Marcus/host1/images/image' 104 1
+Sat May 21 19:41:08 2022: '/usr/local/bin/blkstat' -f fat12  -o 0 -i raw 'cases/Marcus/host1/images/image' 104
+Sat May 21 19:41:11 2022: '/usr/local/bin/blkcat' -f fat12 -s -o 0 -i raw 'cases/Marcus/host1/images/image'
+Sat May 21 19:41:11 2022: '/usr/local/bin/blkcat' -f fat12 -s -o 0 -i raw 'cases/Marcus/host1/images/image'
+Sat May 21 19:41:11 2022: '/usr/local/bin/blkcat' -f fat12  -a -o 0 -i raw 'cases/Marcus/host1/images/image' 104 5
+Sat May 21 19:41:11 2022: '/usr/local/bin/blkcat' -f fat12  -o 0 -i raw 'cases/Marcus/host1/images/image' 104 | '/usr/bin/file' -z -b -
+Sat May 21 19:41:11 2022: '/usr/local/bin/blkstat' -f fat12  -o 0 -i raw 'cases/Marcus/host1/images/image' 104
+Sat May 21 19:41:14 2022: '/usr/local/bin/blkcat' -f fat12 -s -o 0 -i raw 'cases/Marcus/host1/images/image'
+Sat May 21 19:41:14 2022: '/usr/local/bin/blkcat' -f fat12  -o 0 -i raw 'cases/Marcus/host1/images/image' 104 | '/usr/bin/file' -z -b -
+Sat May 21 19:41:14 2022: '/usr/local/bin/blkcat' -f fat12 -s -o 0 -i raw 'cases/Marcus/host1/images/image'
+Sat May 21 19:41:14 2022: '/usr/local/bin/blkstat' -f fat12  -o 0 -i raw 'cases/Marcus/host1/images/image' 104
+Sat May 21 19:41:14 2022: '/usr/local/bin/blkcat' -f fat12  -o 0 -i raw 'cases/Marcus/host1/images/image' 104 5 | '/usr/local/bin/srch_strings' -a
+Sat May 21 19:41:28 2022: '/usr/local/bin/blkcat' -f fat12 -s -o 0 -i raw 'cases/Marcus/host1/images/image'
+Sat May 21 19:41:28 2022: '/usr/local/bin/blkcat' -f fat12 -s -o 0 -i raw 'cases/Marcus/host1/images/image'
+Sat May 21 19:41:28 2022: '/usr/local/bin/blkcat' -f fat12  -o 0 -i raw 'cases/Marcus/host1/images/image' 73 | '/usr/bin/file' -z -b -
+Sat May 21 19:41:28 2022: '/usr/local/bin/blkcat' -f fat12  -a -o 0 -i raw 'cases/Marcus/host1/images/image' 73 31
+Sat May 21 19:41:28 2022: '/usr/local/bin/blkstat' -f fat12  -o 0 -i raw 'cases/Marcus/host1/images/image' 73
+Sat May 21 19:41:30 2022: '/usr/local/bin/blkcat' -f fat12 -s -o 0 -i raw 'cases/Marcus/host1/images/image'
+Sat May 21 19:41:30 2022: '/usr/local/bin/blkcat' -f fat12  -o 0 -i raw 'cases/Marcus/host1/images/image' 73 31 | '/usr/local/bin/srch_strings' -a
+Sat May 21 19:41:30 2022: '/usr/local/bin/blkcat' -f fat12 -s -o 0 -i raw 'cases/Marcus/host1/images/image'
+Sat May 21 19:41:30 2022: '/usr/local/bin/blkcat' -f fat12  -o 0 -i raw 'cases/Marcus/host1/images/image' 73 | '/usr/bin/file' -z -b -
+Sat May 21 19:41:30 2022: '/usr/local/bin/blkstat' -f fat12  -o 0 -i raw 'cases/Marcus/host1/images/image' 73
+Sat May 21 19:59:22 2022: '/usr/local/bin/fls' -f fat12 -la  -s '0' -o 0 -i raw 'cases/Marcus/host1/images/image' 2
+Sat May 21 19:59:26 2022: '/usr/local/bin/ils' -f fat12 -e -o 0 -i raw 'cases/Marcus/host1/images/image' 5
+Sat May 21 19:59:26 2022: '/usr/local/bin/icat' -f fat12 -r -o 0 -i raw 'cases/Marcus/host1/images/image' 5 | '/usr/bin/file' -z -b -
+Sat May 21 19:59:26 2022: '/usr/local/bin/icat' -f fat12 -r -o 0 -i raw 'cases/Marcus/host1/images/image' 5 | '/usr/bin/md5sum'
+Sat May 21 19:59:26 2022: '/usr/local/bin/icat' -f fat12 -r -o 0 -i raw 'cases/Marcus/host1/images/image' 5 | '/usr/bin/sha1sum'
+Sat May 21 19:59:26 2022: '/usr/local/bin/istat' -f fat12  -s '0' -o 0 -i raw 'cases/Marcus/host1/images/image' 5
+Sat May 21 20:15:08 2022: '/usr/local/bin/fls' -f fat12 -la  -s '0' -o 0 -i raw 'cases/Marcus/host1/images/image' 2
+Sat May 21 20:16:47 2022: '/usr/local/bin/fsstat' -f fat12 -o 0 -i raw 'cases/Marcus/host1/images/image'
+Sat May 21 20:18:16 2022: '/usr/local/bin/ils' -f fat12 -e -o 0 -i raw 'cases/Marcus/host1/images/image' 73
+Sat May 21 20:18:16 2022: '/usr/local/bin/icat' -f fat12 -o 0 -i raw 'cases/Marcus/host1/images/image' 73 | '/usr/bin/file' -z -b -
+Sat May 21 20:18:16 2022: '/usr/local/bin/icat' -f fat12 -o 0 -i raw 'cases/Marcus/host1/images/image' 73 | '/usr/bin/md5sum'
+Sat May 21 20:18:16 2022: '/usr/local/bin/icat' -f fat12 -o 0 -i raw 'cases/Marcus/host1/images/image' 73 | '/usr/bin/sha1sum'
+Sat May 21 20:18:16 2022: '/usr/local/bin/istat' -f fat12  -s '0' -o 0 -i raw 'cases/Marcus/host1/images/image' 73
+Sat May 21 20:18:18 2022: '/usr/local/bin/ils' -e -s '0' -f fat12 -o 0 -i raw 'cases/Marcus/host1/images/image' 1-499
+Sat May 21 20:18:20 2022: '/usr/local/bin/fsstat' -f fat12 -o 0 -i raw 'cases/Marcus/host1/images/image'
+Sat May 21 20:18:23 2022: '/usr/local/bin/fls' -f fat12 -la  -s '0' -o 0 -i raw 'cases/Marcus/host1/images/image' 2
+Sat May 21 20:18:26 2022: '/usr/local/bin/ils' -f fat12 -e -o 0 -i raw 'cases/Marcus/host1/images/image' 8
+Sat May 21 20:18:26 2022: '/usr/local/bin/icat' -f fat12 -o 0 -i raw 'cases/Marcus/host1/images/image' 8 | '/usr/bin/file' -z -b -
+Sat May 21 20:18:26 2022: '/usr/local/bin/icat' -f fat12 -o 0 -i raw 'cases/Marcus/host1/images/image' 8 | '/usr/bin/md5sum'
+Sat May 21 20:18:26 2022: '/usr/local/bin/icat' -f fat12 -o 0 -i raw 'cases/Marcus/host1/images/image' 8 | '/usr/bin/sha1sum'
+Sat May 21 20:18:26 2022: '/usr/local/bin/istat' -f fat12  -s '0' -o 0 -i raw 'cases/Marcus/host1/images/image' 8
+Sat May 21 20:18:37 2022: '/usr/local/bin/blkcat' -f fat12 -s -o 0 -i raw 'cases/Marcus/host1/images/image'
+Sat May 21 20:18:37 2022: '/usr/local/bin/blkcat' -f fat12 -s -o 0 -i raw 'cases/Marcus/host1/images/image'
+Sat May 21 20:18:37 2022: '/usr/local/bin/blkcat' -f fat12 -s -o 0 -i raw 'cases/Marcus/host1/images/image'
+Sat May 21 20:18:37 2022: '/usr/local/bin/blkcat' -f fat12  -a -o 0 -i raw 'cases/Marcus/host1/images/image' 451 1
+Sat May 21 20:18:37 2022: '/usr/local/bin/blkcat' -f fat12  -o 0 -i raw 'cases/Marcus/host1/images/image' 451 | '/usr/bin/file' -z -b -
+Sat May 21 20:18:37 2022: '/usr/local/bin/blkstat' -f fat12  -o 0 -i raw 'cases/Marcus/host1/images/image' 451
+Sat May 21 20:18:43 2022: '/usr/local/bin/blkcat' -f fat12 -s -o 0 -i raw 'cases/Marcus/host1/images/image'
+Sat May 21 20:18:43 2022: '/usr/local/bin/blkcat' -f fat12 -s -o 0 -i raw 'cases/Marcus/host1/images/image'
+Sat May 21 20:18:43 2022: '/usr/local/bin/blkcat' -f fat12  -a -o 0 -i raw 'cases/Marcus/host1/images/image' 73 31
+Sat May 21 20:18:43 2022: '/usr/local/bin/blkcat' -f fat12  -o 0 -i raw 'cases/Marcus/host1/images/image' 73 | '/usr/bin/file' -z -b -
+Sat May 21 20:18:43 2022: '/usr/local/bin/blkstat' -f fat12  -o 0 -i raw 'cases/Marcus/host1/images/image' 73
+Sat May 21 20:18:45 2022: '/usr/local/bin/blkcat' -f fat12 -s -o 0 -i raw 'cases/Marcus/host1/images/image'
+Sat May 21 20:18:45 2022: '/usr/local/bin/blkcat' -f fat12 -s -o 0 -i raw 'cases/Marcus/host1/images/image'
+Sat May 21 20:18:45 2022: '/usr/local/bin/blkcat' -f fat12  -o 0 -i raw 'cases/Marcus/host1/images/image' 73 | '/usr/bin/file' -z -b -
+Sat May 21 20:18:45 2022: '/usr/local/bin/blkcat' -f fat12  -o 0 -i raw 'cases/Marcus/host1/images/image' 73 31 | '/usr/local/bin/srch_strings' -a
+Sat May 21 20:18:45 2022: '/usr/local/bin/blkstat' -f fat12  -o 0 -i raw 'cases/Marcus/host1/images/image' 73

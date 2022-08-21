@@ -1,0 +1,7 @@
+# Autopsy host config file
+# Case: Marcus		Host: host1
+# Created: Sat May 21 17:23:35 2022
+
+timeskew  0
+image  img1  raw  images/image
+part  vol1  img1	0  0    fat12  C:

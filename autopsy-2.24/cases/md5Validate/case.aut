@@ -1,0 +1,8 @@
+# Autopsy case config file
+# Case: md5Validate
+
+created Sat May 21 18:32:22 2022
+images	images
+data		output
+log		logs
+reports	reports

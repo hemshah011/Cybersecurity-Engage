@@ -1,0 +1,90 @@
+Sat May 21 17:23:44 2022: Host host1 opened
+Sat May 21 17:26:27 2022: vol1: volume opened
+Sat May 21 17:26:32 2022: image-0-0: Displaying file system details
+Sat May 21 17:27:24 2022: image-0-0: Directory listing of C:/ (2)
+Sat May 21 17:27:44 2022: image-0-0: Displaying details of Dir Entry 8
+Sat May 21 17:28:01 2022: image-0-0: Displaying file system details
+Sat May 21 17:28:10 2022: image-0-0: Displaying ASCII contents of Sectors 73-103
+Sat May 21 17:28:21 2022: image-0-0: Displaying ASCII contents of Sectors 73-103
+Sat May 21 17:28:23 2022: image-0-0: Displaying Hex contents of Sectors 73-103
+Sat May 21 17:28:37 2022: image-0-0: Saving contents of data unit 73 (unit size: 512  number: 31)
+Sat May 21 17:31:31 2022: image-0-0: Directory listing of C:/ (2)
+Sat May 21 17:31:41 2022: image-0-0: Displaying details of Dir Entry 11
+Sat May 21 17:31:53 2022: image-0-0: Displaying ASCII contents of Sector 104
+Sat May 21 17:31:57 2022: image-0-0: Displaying ASCII contents of Sectors 104-105
+Sat May 21 17:32:00 2022: image-0-0: Displaying Hex contents of Sectors 104-105
+Sat May 21 17:32:08 2022: image-0-0: Saving contents of data unit 104 (unit size: 512  number: 2)
+Sat May 21 17:32:28 2022: image-0-0: Directory listing of C:/ (2)
+Sat May 21 17:32:35 2022: image-0-0: Displaying details of Dir Entry 5
+Sat May 21 17:32:45 2022: image-0-0: Displaying ASCII contents of Sector 33
+Sat May 21 17:32:49 2022: image-0-0: Displaying ASCII contents of Sectors 33-72
+Sat May 21 17:32:52 2022: image-0-0: Displaying Hex contents of Sectors 33-72
+Sat May 21 17:33:09 2022: image-0-0: Saving contents of data unit 33 (unit size: 512  number: 40)
+Sat May 21 17:34:16 2022: image-0-0: Directory listing of C:/ (2)
+Sat May 21 17:45:34 2022: image-0-0: Displaying file system details
+Sat May 21 17:46:58 2022: image: Checking image integrity
+Sat May 21 17:46:58 2022: image: Image integrity check PASSED
+Sat May 21 17:47:20 2022: vol1: volume opened
+Sat May 21 17:47:48 2022: Host host1 opened
+Sat May 21 17:47:58 2022: vol1: volume opened
+Sat May 21 17:48:01 2022: image-0-0: Directory listing of C:/ (2)
+Sat May 21 17:48:48 2022: image-0-0: Viewing C:/cover page.jpgc            (8) as ASCII
+Sat May 21 17:48:53 2022: image-0-0: Displaying details of Dir Entry 8
+Sat May 21 17:49:54 2022: image-0-0: Directory listing of C:/ (2)
+Sat May 21 17:50:01 2022: image-0-0: Viewing C:/Scheduled Visits.exe       (11) as ASCII
+Sat May 21 17:50:05 2022: image-0-0: Displaying details of Dir Entry 11
+Sat May 21 18:02:32 2022: image-0-0: Directory listing of C:/ (2)
+Sat May 21 18:02:35 2022: image-0-0: Displaying details of Dir Entry 8
+Sat May 21 18:03:19 2022: image-0-0: Directory listing of C:/ (2)
+Sat May 21 18:03:26 2022: image-0-0: Displaying details of Dir Entry 11
+Sat May 21 18:03:30 2022: image-0-0: Displaying details of Dir Entry 5
+Sat May 21 18:05:37 2022: image-0-0: Directory listing of C:/ (2)
+Sat May 21 18:05:41 2022: image-0-0: Displaying details of Dir Entry 8
+Sat May 21 18:05:52 2022: image-0-0: Directory listing of C:/ (2)
+Sat May 21 18:06:31 2022: image-0-0: Displaying details of Dir Entry 5
+Sat May 21 18:06:42 2022: image-0-0: Displaying ASCII contents of Sector 33
+Sat May 21 18:06:45 2022: image-0-0: Displaying ASCII contents of Sectors 33-72
+Sat May 21 18:06:47 2022: image-0-0: Displaying Hex contents of Sectors 33-72
+Sat May 21 18:07:06 2022: image-0-0: Displaying string contents of Sectors 33-72
+Sat May 21 18:08:35 2022: image-0-0: Directory listing of C:/ (2)
+Sat May 21 18:08:38 2022: image-0-0: Displaying details of Dir Entry 11
+Sat May 21 18:10:50 2022: image-0-0: Directory listing of C:/ (2)
+Sat May 21 18:10:52 2022: image-0-0: Displaying file system details
+Sat May 21 18:10:56 2022: image-0-0: Displaying ASCII contents of Sectors 104-108
+Sat May 21 18:11:07 2022: image-0-0: Displaying string contents of Sectors 104-108
+Sat May 21 18:11:40 2022: image-0-0: Saving contents of data unit 104 (unit size: 512  number: 5)
+Sat May 21 18:12:15 2022: image-0-0: Displaying ASCII contents of Sectors 104-108
+Sat May 21 18:12:16 2022: image-0-0: Displaying string contents of Sectors 104-108
+Sat May 21 18:12:20 2022: image-0-0: Saving contents of data unit 104 (unit size: 512  number: 5)
+Sat May 21 18:15:19 2022: image-0-0: Directory listing of C:/ (2)
+Sat May 21 18:15:21 2022: image-0-0: Displaying file system details
+Sat May 21 18:15:24 2022: image-0-0: Displaying ASCII contents of Sectors 73-103
+Sat May 21 18:15:28 2022: image-0-0: Displaying ASCII contents of Sectors 73-103
+Sat May 21 18:15:31 2022: image-0-0: Displaying string contents of Sectors 73-103
+Sat May 21 18:15:39 2022: image-0-0: Displaying Hex contents of Sectors 73-103
+Sat May 21 18:15:49 2022: image-0-0: Displaying string contents of Sectors 73-103
+Sat May 21 18:16:57 2022: image-0-0: Saving contents of data unit 73 (unit size: 512  number: 31)
+Sat May 21 18:50:10 2022: Host host1 opened
+Sat May 21 18:50:12 2022: vol1: volume opened
+Sat May 21 18:50:15 2022: image-0-0: Displaying file system details
+Sat May 21 18:50:19 2022: image-0-0: Directory listing of C:/ (2)
+Sat May 21 18:50:23 2022: image-0-0: Displaying details of Dir Entry 8
+Sat May 21 19:40:18 2022: image-0-0: Directory listing of C:/ (2)
+Sat May 21 19:41:04 2022: image-0-0: Displaying details of Dir Entry 11
+Sat May 21 19:41:08 2022: image-0-0: Displaying ASCII contents of Sector 104
+Sat May 21 19:41:11 2022: image-0-0: Displaying ASCII contents of Sectors 104-108
+Sat May 21 19:41:14 2022: image-0-0: Displaying string contents of Sectors 104-108
+Sat May 21 19:41:28 2022: image-0-0: Displaying ASCII contents of Sectors 73-103
+Sat May 21 19:41:30 2022: image-0-0: Displaying string contents of Sectors 73-103
+Sat May 21 19:59:22 2022: image-0-0: Directory listing of C:/ (2)
+Sat May 21 19:59:26 2022: image-0-0: Displaying details of Dir Entry 5
+Sat May 21 20:15:08 2022: image-0-0: Directory listing of C:/ (2)
+Sat May 21 20:16:47 2022: image-0-0: Displaying file system details
+Sat May 21 20:18:16 2022: image-0-0: Displaying details of Dir Entry 73
+Sat May 21 20:18:18 2022: image-0-0: Dir Entry Allocation List for 0 to 499
+Sat May 21 20:18:20 2022: image-0-0: Displaying file system details
+Sat May 21 20:18:23 2022: image-0-0: Directory listing of C:/ (2)
+Sat May 21 20:18:26 2022: image-0-0: Displaying details of Dir Entry 8
+Sat May 21 20:18:37 2022: image-0-0: Displaying ASCII contents of Sector 451
+Sat May 21 20:18:43 2022: image-0-0: Displaying ASCII contents of Sectors 73-103
+Sat May 21 20:18:45 2022: image-0-0: Displaying string contents of Sectors 73-103

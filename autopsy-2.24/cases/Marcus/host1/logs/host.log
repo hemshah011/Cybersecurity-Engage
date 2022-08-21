@@ -1,0 +1,11 @@
+Sat May 21 17:23:35 2022: Host host1 added to case Marcus
+Sat May 21 17:23:44 2022: Host host1 opened by unknown
+Sat May 21 17:26:19 2022: Copying image /home/h_alpha/Downloads/image into Marcus:host1
+Sat May 21 17:26:19 2022: Image added: image img1 raw  images/image
+Sat May 21 17:26:19 2022: Volume added: part  vol1 img1	0  0    fat12  C:
+Sat May 21 17:26:27 2022: Image vol1 opened by unknown
+Sat May 21 17:47:20 2022: Image vol1 opened by unknown
+Sat May 21 17:47:48 2022: Host host1 opened by unknown
+Sat May 21 17:47:58 2022: Image vol1 opened by unknown
+Sat May 21 18:50:10 2022: Host host1 opened by unknown
+Sat May 21 18:50:12 2022: Image vol1 opened by unknown
